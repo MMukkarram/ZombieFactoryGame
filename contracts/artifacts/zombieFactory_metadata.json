@@ -102,7 +102,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/zombiefactory.sol": "ZombieFactory"
+			"contracts/ZombieFactory.sol": "zombieFactory"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -113,11 +113,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/zombiefactory.sol": {
-			"keccak256": "0xfe9e80ecfdd1de5ad266b02d3dba8ca7044818b3394ff1bfa71fe864e2c60635",
+		"contracts/ZombieFactory.sol": {
+			"keccak256": "0x5c1bd01c411e383e383515100aa39c496ac20d7fc204f1fdcde6324dd917503b",
 			"urls": [
-				"bzz-raw://6d1bfffce416feedfe421e5ae2b32be67bcdb262522978a849b06f095f037220",
-				"dweb:/ipfs/QmWxNMytpqiT4t19sa23gxc7NLN2MDZL6GXqdVNZGPqdge"
+				"bzz-raw://be43e8665ed13856f78b25b65d3619e0c4562e87b0406209016700c071443bff",
+				"dweb:/ipfs/QmW5TLEtT1z7ydechxFkkjgiL1Te3gnDZT345zfBZNA5n5"
 			]
 		}
 	},

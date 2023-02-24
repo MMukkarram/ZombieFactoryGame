@@ -46,6 +46,26 @@
 				"type": "function"
 			},
 			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_zombieId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_targetDna",
+						"type": "uint256"
+					}
+				],
+				"name": "feedAndMultiply",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"constant": true,
 				"inputs": [
 					{
@@ -102,7 +122,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/zombiefactory.sol": "ZombieFactory"
+			"contracts/zombiefeeding.sol": "ZombieFeeding"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -118,6 +138,13 @@
 			"urls": [
 				"bzz-raw://6d1bfffce416feedfe421e5ae2b32be67bcdb262522978a849b06f095f037220",
 				"dweb:/ipfs/QmWxNMytpqiT4t19sa23gxc7NLN2MDZL6GXqdVNZGPqdge"
+			]
+		},
+		"contracts/zombiefeeding.sol": {
+			"keccak256": "0x75a52b8c81ec55c2f99d5768f700f51f55b407beede775b24a267d86fd2f4b07",
+			"urls": [
+				"bzz-raw://ae8f1bb68a079d1c7c6d241ea0bbd406b579d835fdd6f08b7df2e2cef9fb260b",
+				"dweb:/ipfs/QmeRFipAZRSmHUFv7PAcNFLoMZoVQ64WgGgE2aS3daCSXh"
 			]
 		}
 	},
