@@ -6,31 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "zombieId",
-						"type": "uint256"
-					},
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "dna",
-						"type": "uint256"
-					}
-				],
-				"name": "NewZombie",
-				"type": "event"
-			},
-			{
 				"constant": false,
 				"inputs": [
 					{
@@ -93,10 +68,10 @@
 	},
 	"sources": {
 		"contracts/ZombieFactory.sol": {
-			"keccak256": "0xe67670117bf297cba0a78e8205dcbf58fc9fc9fa8184d13a62a701d7666d8e08",
+			"keccak256": "0x448c2daded6ba1249f231eb90685df0b313044bebb70e5307e8c607a06e2da6e",
 			"urls": [
-				"bzz-raw://ed347042153faaee4122fd403c9830d1c360145a156cea178d9e96d40a2b0c73",
-				"dweb:/ipfs/QmSqEbmgNvZafNb3BnqqNfLkCktJGjmjnobCVEkwdo8RSp"
+				"bzz-raw://93ce4302e6370da9c0c3e40ba87e9ae0c3c5b6f69889d7775728144751b93602",
+				"dweb:/ipfs/QmasYBJUomTChfUaHhx8okqsNtUTHG7zTJVCa6dVHYSogw"
 			]
 		}
 	},
